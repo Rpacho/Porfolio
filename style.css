@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    --ff-alata: 'Alata', sans-serif;
+    --ff-josefin: 'Josefin Sans', sans-serif;
+    --ff-squarePeg: 'Square Peg', sans-serif;
+    --ff-Mouse: 'Mouse Memoirs', sans-serif;
+    --ff-squarePeg2: 'Square Peg', cursive;
+    --ff-roboto: 'Roboto', sans-serif;
+
+    --clr-dark: #0d1b2a;
+    --clr-light-dark: #415a77;
+    --clr-light: #CFB997;
+    --clr-very-light: #FAD6A5;
+}
+
+
+body{
+    background-color: var(--clr-dark);
+    color: var(--clr-very-light);
+    font-family: var(--ff-josefin);
+}
+.container{
+    margin-top: 20px;
+    /* margin-left: 20%;
+    margin-right: 20%; */
+}
+
+.card-image{
+    width: 360px;
+    height: 253px;
+    margin: auto;
+}
+.card{
+    width: 360px;
+    height: 264px;
+    margin: auto;
+    border: 2px solid var(--clr-dark);
+    background-color: var(--clr-light-dark);
+    margin-bottom: 20px;
+    border-radius: 5% 5% 0 0;
+}
+
+.card-header{
+    font-family: var(--ff-alata);
+    font-size: 15px;
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+.highlights{
+    font-family: var(--ff-roboto);
+}
+
+.gif-showcase{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.gif-showcase img{
+    margin-top: 10px;
+}
+
+.project-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid var(--clr-light);
+    margin-bottom: 20px;
+}
+
+.project-details div{
+    margin-top: 10px;
+} 
+
+.header-title{
+    font-family: var(--ff-alata);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+
+.project-name{
+    font-family: var(--ff-roboto);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.space{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.opener{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+}
+
+.opener div{
+    vertical-align: middle;
+}
+
+.second-opener{
+    font-size: 20px;
+    text-align: center;
+}
+
+.horizontal-line {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 10px solid var(--clr-very-light);
+    border-radius: 5px;
+  }
+
+a{
+    color: var(--clr-light);
+}
